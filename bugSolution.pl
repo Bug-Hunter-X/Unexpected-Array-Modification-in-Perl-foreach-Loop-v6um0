@@ -1,0 +1,1 @@
+my @array = (1 .. 10);my $sum = 0;my @copy = @array; #create a copy of the array foreach my $i (@copy){    $sum += $i;}print "Sum: ", $sum;
